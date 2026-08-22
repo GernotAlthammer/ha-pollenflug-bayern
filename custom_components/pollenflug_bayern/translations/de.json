@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pollenflug Bayern (ePIN)",
+        "description": "Wähle eine oder mehrere ePIN-Messstationen aus. {fallback_notice}",
+        "data": {
+          "locations": "Messstation(en)",
+          "name": "Anzeigename (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur ePIN-API konnte nicht hergestellt werden.",
+      "invalid_response": "Die ePIN-API hat eine unerwartete Antwort geliefert.",
+      "no_data": "Für den/die angegebenen Stationscode(s) wurden keine Daten geliefert. Bitte den Code überprüfen.",
+      "no_location": "Bitte mindestens einen Stationscode eingeben."
+    },
+    "abort": {
+      "already_configured": "Diese Station ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Pollenflug Bayern – Optionen",
+        "data": {
+          "update_interval": "Aktualisierungsintervall (Minuten)"
+        }
+      }
+    }
+  }
+}
